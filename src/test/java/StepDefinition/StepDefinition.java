@@ -61,6 +61,27 @@ public class StepDefinition {
 		
 		
 	}
+	
+	@Given("User hits an application url")
+	public void user_hits_an_application_url() {
+	    
+	}
+
+	@Given("the User passes the payload with all required details")
+	public void the_user_passes_the_payload_with_all_required_details() {
+	    
+	}
+
+	@When("the User will hit the url with the {string}")
+	public void the_user_will_hit_the_url_with_the(String string) {
+	   
+	}
+
+	@Then("the User will be able to validate the response with a specific status")
+	public void the_user_will_be_able_to_validate_the_response_with_a_specific_status() {
+
+	}
+
 
 	
 }
